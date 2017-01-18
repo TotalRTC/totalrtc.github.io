@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>My New Post | TotalRTC</title>
+  <title>WebRTC服务器搭建 | TotalRTC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="中文 中文 中文">
+  <meta name="description" content="1.WebRTC后台服务:通话的房间服务器(Room Server)房间服务器是用来创建和管理通话会话的状态维护,是双方通话还是多方通话,加入与离开房间等等,我们暂时沿用Google部署在GAE平台上的AppRTC这个房间服务器实现,该GAE App的源码可以在github.com上获取.该实现是一个基于Python的GAE应用,我们需要下载Google GAE的离线开发包到我们自己的Linux服">
 <meta property="og:type" content="article">
-<meta property="og:title" content="My New Post">
+<meta property="og:title" content="WebRTC服务器搭建">
 <meta property="og:url" content="http://yoursite.com/2017/01/18/My-New-Post/index.html">
 <meta property="og:site_name" content="TotalRTC">
-<meta property="og:description" content="中文 中文 中文">
-<meta property="og:updated_time" content="2017-01-18T05:15:03.000Z">
+<meta property="og:description" content="1.WebRTC后台服务:通话的房间服务器(Room Server)房间服务器是用来创建和管理通话会话的状态维护,是双方通话还是多方通话,加入与离开房间等等,我们暂时沿用Google部署在GAE平台上的AppRTC这个房间服务器实现,该GAE App的源码可以在github.com上获取.该实现是一个基于Python的GAE应用,我们需要下载Google GAE的离线开发包到我们自己的Linux服">
+<meta property="og:updated_time" content="2017-01-18T06:09:31.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My New Post">
-<meta name="twitter:description" content="中文 中文 中文">
+<meta name="twitter:title" content="WebRTC服务器搭建">
+<meta name="twitter:description" content="1.WebRTC后台服务:通话的房间服务器(Room Server)房间服务器是用来创建和管理通话会话的状态维护,是双方通话还是多方通话,加入与离开房间等等,我们暂时沿用Google部署在GAE平台上的AppRTC这个房间服务器实现,该GAE App的源码可以在github.com上获取.该实现是一个基于Python的GAE应用,我们需要下载Google GAE的离线开发包到我们自己的Linux服">
   
     <link rel="alternate" href="/atom.xml" title="TotalRTC" type="application/atom+xml">
   
@@ -52,9 +52,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -77,7 +77,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      My New Post
+      WebRTC服务器搭建
     </h1>
   
 
@@ -85,12 +85,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>中文 中文 中文</p>
+        <p>1.WebRTC后台服务:<br>通话的房间服务器(Room Server)<br>房间服务器是用来创建和管理通话会话的状态维护,是双方通话还是多方通话,加入与离开房间等等,我们暂时沿用Google部署在GAE平台上的AppRTC这个房间服务器实现,该GAE App的源码可以在github.com上获取.该实现是一个基于Python的GAE应用,我们需要下载Google GAE的离线开发包到我们自己的Linux服务器上来运行该项目,搭建大陆互联网环境下的房间服务器.<br>通话的信令服务器(Signaling Server)<br>信令服务器是用来管理和协助通话终端建立去中心的点对点通话的一个角色。这个角色要负责一下任务：<br>1）用来控制通信发起或者结束的连接控制消息<br>2）发生错误时用来相互通告的消息<br>3）各自一方媒体流元数据，比如像解码器、解码器的配置、带宽、媒体类型等等<br>4）两两之间用来建立安全连接的关键数据<br>5）外界所能看到的网络上的数据，比如广域网IP地址、端口等</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/18/My-New-Post/" data-id="ciy2hptjo0001mexapt6eadzu" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/18/My-New-Post/" data-id="ciy2k02f90000npxan8bn0mzc" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -99,11 +99,15 @@
     
 <nav id="article-nav">
   
-  
-    <a href="/2017/01/18/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2017/01/18/2017011801/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Récent</strong>
+      <div class="article-nav-title">
+        
+          各大科技巨头对webrtc展望
+        
+      </div>
     </a>
+  
   
 </nav>
 
@@ -118,9 +122,23 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Mot-clés</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/webrtc/">webrtc</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/webrtc/" style="font-size: 10px;">webrtc</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -134,16 +152,16 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2017/01/18/My-New-Post/">My New Post</a>
+            <a href="/2017/01/18/2017011801/">各大科技巨头对webrtc展望</a>
           </li>
         
           <li>
-            <a href="/2017/01/18/hello-world/">Hello World</a>
+            <a href="/2017/01/18/My-New-Post/">WebRTC服务器搭建</a>
           </li>
         
       </ul>
@@ -158,8 +176,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2017 TotalRTC<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2017 TotalRTC
     </div>
   </div>
 </footer>
